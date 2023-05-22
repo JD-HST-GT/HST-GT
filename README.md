@@ -3,7 +3,7 @@
 
 ## Run on google colab (`recommend`)
 
-Our codes, dataset, model and other data are stored in Google Drive （ ttps://drive.google.com/drive/folders/18MWYE5LteFZLRx-rCHS53ezZTmvvgTU5?usp=sharing ）, and you can train the HST-GT model with Colab.
+Our codes, dataset, model and other data are stored in Google Drive （ https://drive.google.com/drive/folders/18MWYE5LteFZLRx-rCHS53ezZTmvvgTU5?usp=sharing ）, and you can train the HST-GT model with Colab.
 
 
 
