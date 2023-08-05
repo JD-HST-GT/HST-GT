@@ -1,5 +1,7 @@
 # **HST-GT**: **H**eterogeneous **S**patial-**T**emporal **G**raph **T**ransformer for Delivery Time Estimation in Warehouse-Distribution Integration E-Commerce
 
+## The Paper has been accepted by CIKM'23!
+
 
 ## Run on google colab (`recommend`)
 
