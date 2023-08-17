@@ -83,7 +83,7 @@ The file record the ground truth time of each routes within n days, where *full_
 |  Column | Description  | 
 |  ----  | ----  | 
 | time|Time index|
-|route_id|ID of route (0-311)|
+|route_id|ID of route |
 |full_time| Full-link delivery time in a route|
 |Node1_time| Time in warhouse|
 |pack_time| Package loading time |
