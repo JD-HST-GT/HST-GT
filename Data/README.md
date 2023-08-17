@@ -1,18 +1,18 @@
 # Dataset for Heterogeneous Spatial-Temporal Graph Prediction
 
-The dataset takes *(i)* a heterogeneous subgraph including 74 heterogeneous nodes, 554 edges and 312 routes; *(ii)* temporal data within 10 days. 
+The dataset takes *(i)* a heterogeneous subgraph including heterogeneous nodes, edges and routes; *(ii)* temporal data within n days. 
 
 
 
 
 ## Spatial Information
 
-The heterogeneous graph includes 30 warehouses(Nodetype: Node1) and 44 sorting centers(Nodetype: Node2).
+The heterogeneous graph includes warehouses(Nodetype: Node1) and sorting centers(Nodetype: Node2).
 
 The spatial information is recorded in *Spatial_Graph_Edge.csv*, *Spatial_Delivery_Route.csv* and *Node_Type2_Rank_Score.csv*, the details of these files are shown below:
 
 ### Spatial_Graph_Edge.csv
-This file record the 554 edges in the heterogeneous warehouse-center graph, and the heterogeneous graph is constructed by this file.
+This file record the edges in the heterogeneous warehouse-center graph, and the heterogeneous graph is constructed by this file.
 |  Column | Description  | 
 |  ----  | ----  | 
 |  source_id   |  ID of source node |
@@ -21,7 +21,7 @@ This file record the 554 edges in the heterogeneous warehouse-center graph, and 
 
 
 ### Spatial_Delivery_Route.csv
-This file record the 312 routes that a package is delivered from warehouse to customer. There is only one route from a warehouse node to a sorting center node. When the node is *Null*, it is marked as *-1*.
+This file record the routes that a package is delivered from warehouse to customer. There is only one route from a warehouse node to a sorting center node. When the node is *Null*, it is marked as *-1*.
 
 |  Column | Description  | 
 |  ----  | ----  | 
@@ -79,7 +79,7 @@ The file record the temporal data of warehouse node and sorting center node, inc
 |xb_1|working day:1, non-working day:0|
 |xb_2| sales promotion period:1, normal period:0|
 ### Y_Delivery_Time.csv
-The file record the ground truth time of each routes within ten days, where *full_time = Node1_time + pack_time + Node2_time*.
+The file record the ground truth time of each routes within n days, where *full_time = Node1_time + pack_time + Node2_time*.
 |  Column | Description  | 
 |  ----  | ----  | 
 | time|Time index|
